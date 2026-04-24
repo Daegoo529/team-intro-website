@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 팀 디스커션
+    url: https://github.com/YOUR_ORG/team-intro-website/discussions
+    about: 기능 제안, 질문, 일반적인 대화는 디스커션을 이용해주세요.

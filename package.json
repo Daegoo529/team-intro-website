@@ -1,0 +1,27 @@
+{
+  "name": "team-intro-website",
+  "version": "1.0.0",
+  "description": "팀 소개 웹사이트 - Git & GitHub 협업 실습 프로젝트",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.{html,css,js}\"",
+    "format:check": "prettier --check \"src/**/*.{html,css,js}\"",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.9.0",
+    "husky": "^9.1.4",
+    "prettier": "^3.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
